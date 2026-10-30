@@ -1,0 +1,13 @@
+:root{--bg:#f7f3ea;--text:#18332f;--accent:#97422c;--muted:#51615a;--line:#c5cec3}
+*{box-sizing:border-box}html{font-size:18px}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif;line-height:1.65;overflow-wrap:anywhere}
+a{color:var(--accent);text-underline-offset:4px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.wrap{max-width:1080px;margin:auto;padding:28px clamp(20px,5vw,64px)}header{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{font-family:Georgia,serif;font-size:24px;color:var(--text)}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{display:inline-flex;align-items:center;min-height:44px}
+main{padding:52px 0}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.15}h1{font-size:clamp(36px,7vw,72px);letter-spacing:-.035em;max-width:850px;margin:16px 0 28px}h2{font-size:32px;margin:0 0 20px}
+.eyebrow,.meta,footer{font-size:14px;color:var(--muted)}.eyebrow{text-transform:uppercase;letter-spacing:.12em}.lede{font-size:22px;max-width:720px}.copy{max-width:720px;white-space:pre-wrap}.copy p{white-space:normal}
+.button{display:inline-block;padding:12px 24px;background:var(--text);color:var(--bg);border-radius:6px;font-size:18px;margin:16px 0;text-decoration:none}
+.section{border-top:1px solid var(--line);margin-top:48px;padding-top:36px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:28px}.card{padding:24px 0;border-top:1px solid var(--line)}.card h2{font-size:28px;margin:12px 0}.card p{margin:16px 0}.card .read{display:inline-block;min-height:44px}
+.photo{display:block;width:100%;max-width:720px;height:auto;border-radius:10px;margin:28px 0}.profile{max-width:240px}footer{border-top:1px solid var(--line);padding:24px 0;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.skip{position:absolute;left:20px;top:-100px;background:var(--bg);padding:12px}.skip:focus{top:10px}ul{padding-left:24px}@media(max-width:480px){main{padding:36px 0}.lede{font-size:20px}header{gap:12px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+:root{--bg:#f6f9ff;--text:#182d4d;--accent:#244b8e;--muted:#53647d;--line:#c0cede}body{font-family:Arial,sans-serif}
